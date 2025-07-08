@@ -1,0 +1,104 @@
+    1  git config --global user.name "AshrafS7090"
+    2  git config --global user.email "ashrafsaar786@gmail.com"
+    3  git config --global -e
+    4  git config --global -e
+    5  git init
+    6  touch file1 file2
+    7  ll
+    8  git add .
+    9  ll
+   10  git status
+   11  git comiit -m "file1 and file2 added"
+   12  git log
+   13  git commit -m "file1 and file2 added"
+   14  git log
+   15  git remote add origin https://github.com/AshrafS7090/devops-01.git
+   16  git push origin master
+   17  git log
+   18  git push origin master
+   19  touch file3 file4
+   20  ll
+   21  git add .
+   22  git status
+   23  git push origin master
+   24  git commit -m "file3 and file4 added"
+   25  git push origin master
+   26  git init
+   27  git remote add origin https://github.com/AshrafS7090/demo1.git
+   28  touch demo1 demo2
+   29  ll
+   30  git add demo1
+   31  ll
+   32  git status
+   33  git add .
+   34  git status
+   35  echo "good morning" >> demo1
+   36  cat demo1
+   37  git push origin  master
+   38  git add .
+   39  git commit -m "demo1 added"
+   40  git push origin master
+   41  vi demo1
+   42  git add .
+   43  git commit -m "added"
+   44  git push origin master
+   45  cat demo1
+   46  git push origin master
+   47  vi demo2
+   48  git add .
+   49  git commit -m "hello"
+   50  git push origin master
+   51  git log
+   52  git pull https://github.com/AshrafS7090/demo1.git
+   53  git fetch
+   54  ll
+   55  get pull origin master
+   56  get status
+   57  git status
+   58  get pull origin master
+   59  git pull origin master
+   60  ll
+   61  cat demo2
+   62  cat demo3
+   63  echo "ashraf" >>demo3
+   64  cat demo3
+   65  git add .
+   66  git commit -m "hel"
+   67  git push origin master
+   68  rm -f demo2
+   69  git add .
+   70  git commit "deleted"
+   71  git push origin master
+   72  git commit -m "deleted"
+   73  git push origin master
+   74  ll
+   75  exit
+   76  git https://github.com/AshrafS7090/devops-01.git
+   77  git init
+   78  git clone https://github.com/AshrafS7090/devops-01.git
+   79  ll
+   80  ls
+   81  git la
+   82  ls
+   83  ls
+   84  ll
+   85  git init
+   86  rm -rf file1
+   87  ll
+   88  rm -rf demo1
+   89  ll
+   90  rm -rf demo3
+   91  ll
+   92  git add .
+   93  git commit -m "deketer"
+   94  git push origin master
+   95  ll
+   96  touch adress.html about.html
+   97  ll
+   98  ls
+   99  git add .
+  100  git commit -m "added"
+  101  git log
+  102  1
+  103  history
+  104  history >> hist
